@@ -1,1 +1,1 @@
-# shop-vue
+# java-script-advanced
