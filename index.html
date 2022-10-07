@@ -32,12 +32,13 @@
                         </a>
                     </li>
                     <li class="header__item">
-                        <form action="#" class="search-form" @submit.prevent="filter">
+                        <search></search>
+                        <!-- <form action="#" class="search-form" @submit.prevent="filter">
                             <input type="text" class="search-field" v-model="userSearch">
                             <button class="btn-search" type="submit">
                                 <i class="fas fa-search"></i>
                             </button>
-                        </form>
+                        </form> -->
                     </li>
                 </ul>
             </nav>
@@ -49,6 +50,12 @@
                 </li>
                 <li>
                     <button class="btn-cart" type="button" @click="showCart = !showCart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <cart :cart-items="cartItems"
+                    :img="imgCart"
+                    :visibility="showCart"></cart>
+                    <!-- <button class="btn-cart" type="button" @click="showCart = !showCart">
                         <i class="fa-solid fa-cart-shopping"></i>
                     </button>
                     <div class="cart-block" v-show="showCart">
@@ -69,7 +76,7 @@
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </li>
                 <li>
                     <button class="user">
@@ -79,7 +86,8 @@
             </ul>
         </header>
         <main>
-            <div class="products">
+            <products :products="filtered" :img="imgProduct" @add-product="addProduct"></products>
+            <!-- <div class="products">
                 <div class="product-item" v-for="product of filtered" :key="product.id_product">
                     <img :src="imgProduct" alt="товар">
                     <div class="desc">
@@ -88,11 +96,14 @@
                         <button class="buy-btn" @click="addProduct(product)">Купить</button>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </main>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/CartComponent.js"></script>
+    <script src="js/ProductComponent.js"></script>
+    <script src="js/MyFilterComponents.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
