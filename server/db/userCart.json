@@ -3,20 +3,52 @@
     "countGoods": 2,
     "contents": [
         {
-            "quantity": 2,
+            "quantity": 5,
             "id_product": 2,
-            "imgProduct": "img/product-card-2.png",
+            "imgProduct": "img/new2.jpg",
             "product_name": "Another Product",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "price": 500
         },
         {
-            "quantity": 1,
+            "quantity": 6,
             "id_product": 1,
-            "imgProduct": "img/product-card-1.png",
+            "imgProduct": "img/new1.jpg",
             "product_name": "Awesome Product",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "price": 100
+        },
+        {
+            "quantity": 3,
+            "id_product": 6,
+            "imgProduct": "img/new6.jpg",
+            "product_name": "Another One",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur.",
+            "price": 2700
+        },
+        {
+            "quantity": 1,
+            "id_product": 3,
+            "imgProduct": "img/new3.jpg",
+            "product_name": "Something New",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+            "price": 1000
+        },
+        {
+            "quantity": 1,
+            "id_product": 4,
+            "imgProduct": "img/new4.jpg",
+            "product_name": "Dummy Thing",
+            "description": "Lorem ipsum dolor sit amet.",
+            "price": 1500
+        },
+        {
+            "quantity": 1,
+            "id_product": 5,
+            "imgProduct": "img/new5.jpg",
+            "product_name": "Product Example",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "price": 300
         }
     ]
 }
